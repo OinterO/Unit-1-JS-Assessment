@@ -5,6 +5,8 @@
 // 👇 COMPLETE YOUR WORK BELOW 👇
 */
 
+const { films } = require("./data/fixtures-bundle")
+
 /**
  * ### Challenge `getName`
  * Example ✅
@@ -19,6 +21,19 @@ function getName(character) {
   return character.name
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * ### Challenge `getFilmCount`
  * MVP Challenge 🤓
@@ -29,7 +44,8 @@ function getName(character) {
  * Sample data expected output: 5
  */
 function getFilmCount(character) {
-  // TODO: Add your code inside the functions (others below).
+  console.log(Object.keys(character))
+
 
 }
 
@@ -100,6 +116,76 @@ function getStarshipPassengerAndCrewSumTotal(character) {
 function getNthFilm(character, filmNumber) {
   // TODO: Add your code here.
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * ### Challenge `getCargoCapacityTotal`
